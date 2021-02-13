@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 
+import matplotlib.pyplot as plt
+import seaborn as sb
+
 df_MLS = pd.read_csv("MLS2021_Outfield.csv", index_col=False)
 
 df_MLS_goalies = pd.read_csv("MLS2021_keepers.csv", index_col=False)
@@ -9,12 +12,52 @@ df_NOS = pd.read_csv("NOS2021_Outfield.csv", index_col=False)
 
 df_NOS_goalies = pd.read_csv("NOS2021_Keepers.csv", index_col=False)
 
-#print(df_NOS.age.head())
+
+# print(df_NOS.age.head())
 
 
 def convertAge(df):
-    for index, row in df.iterrows():
-        print(row.age)
+    Aage = 2020-df.birth_year
+    df['newAge'] = Aage
+    return df
+
+
+#print(df_NOS.birth_year)
+
+df_NOS = convertAge(df_NOS)
+
+df_NOS_goalies=convertAge(df_NOS_goalies)
+#print(df_NOS.newAge)
+
+sb.countplot(data=df_NOS,x='newAge')
+
+plt.title('Liga NOS players')
+
+plt.show()
+
+sb.countplot(data=df_NOS_goalies,x='newAge')
+
+plt.title('Liga NOS goalkeepers')
+
+plt.show()
+
+sb.countplot(data=df_MLS,x='age')
+
+plt.title('MLS players')
+
+plt.show()
+
+sb.countplot(data=df_MLS_goalies,x='age')
+
+plt.title('MLS goalkeepers')
+
+plt.show()
+
+
+
+def getUNos(df,age):
+    df_Uage = df[df.newAge <= age]
+    return df_Uage
 
 
 def getU(df, age):
@@ -36,15 +79,19 @@ def getPosition(df, pos):
 df_MLS_U18 = getU(df_MLS, 18)
 # No under 18 keepers in MLS
 df_MLS_goalies_U18 = getU(df_MLS_goalies, 18)
-# df_NOS_U18=getU(df_NOS,18)
+df_NOS_U18=getUNos(df_NOS,18)
 # df_NOS_goalies_U18=getU(df_NOS_goalies)
 
 df_MLS_U18 = removeNull(df_MLS_U18)
+
+
 # df_MLS_goalies_U18=removeNull(df_MLS_goalies_U18)
-# df_NOS_U18=removeNull(df_NOS_U18)
+df_NOS_U18=removeNull(df_NOS_U18)
 # df_NOS_goalies_U18=removeNull(df_NOS_goalies_U18)
 
-#print(df_MLS_U18.position)
+# print(df_MLS_U18.position)
+
+#print(df_NOS_U18.head())
 
 
 def getAttack(df):
@@ -54,7 +101,11 @@ def getAttack(df):
 
 df_MLS_U18_attacker = getAttack(df_MLS_U18)
 
-#print(df_MLS_U18_attacker.games.value_counts())
+df_NOS_U18_attacker=getAttack(df_NOS_U18)
+
+# print(df_MLS_U18_attacker.games.value_counts())
+
+print(df_NOS_U18_attacker.games.value_counts())
 
 
 def getPlayers(df):
@@ -87,8 +138,39 @@ def getAttSummary(array):
     return summary
 
 
+sb.countplot(data=df_MLS_U18_attacker, x='goals_per90')
+
+plt.show()
+
+sb.countplot(data=df_MLS_U18_attacker, x='assists_per90')
+
+plt.show()
+
+sb.countplot(data=df_MLS_U18_attacker, x='goals_assists_per90')
+
+plt.show()
+
+
+p1 = df_MLS_U18_attacker[df_MLS_U18_attacker.goals_assists_per90 == 1.67]
+
+p2 = df_MLS_U18_attacker[df_MLS_U18_attacker.goals_assists_per90 == 0.58]
+
+p3 = df_MLS_U18_attacker[df_MLS_U18_attacker.goals_assists_per90 == 0.42]
+
+p = []
+
+p.append(p1)
+
+p.append(p2)
+
+p.append(p3)
+
+pmessage = getAttSummary(p)
+
+print(pmessage)
+
 message = getAttSummary(players)
 
 import pywhatkit
 
-pywhatkit.sendwhatmsg('+201019867532',message,15,5)
+# pywhatkit.sendwhatmsg('+201019867532',message,15,5)

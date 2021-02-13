@@ -1,0 +1,34 @@
+--------------------
+Date: 11:2:2021
+Time: 15:5
+Phone number: +201019867532
+Message: Forward Analysis
+Player name Ricardo Pepi
+Player nationality us USA
+Player squad FC Dallas
+Player age 17
+Player games played 17.0
+Player games started 4.0
+Player minutes played 466.0
+Player goals scored 2.0
+Player assists made 1.0
+Player name Christian Torres
+Player nationality us USA
+Player squad Los Angeles FC
+Player age 15
+Player games played 8.0
+Player games started 2.0
+Player minutes played 215.0
+Player goals scored 1.0
+Player assists made 0.0
+Player name Jayden Nelson
+Player nationality ca CAN
+Player squad Toronto FC
+Player age 17
+Player games played 7.0
+Player games started 1.0
+Player minutes played 146.0
+Player goals scored 0.0
+Player assists made 0.0
+
+--------------------
