@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sb
 
@@ -24,34 +24,39 @@ def convertAge(df):
 
 #print(df_NOS.birth_year)
 
+
+st.write("""
+# The rising star scout
+""")
+
 df_NOS = convertAge(df_NOS)
 
 df_NOS_goalies=convertAge(df_NOS_goalies)
 #print(df_NOS.newAge)
 
-sb.countplot(data=df_NOS,x='newAge')
+fig,ax=plt.subplots(1,4,figsize=(20,10))
 
-plt.title('Liga NOS players')
+fig.suptitle("Age distros graphs for Liga NOS and MLS")
 
-plt.show()
+sb.countplot(data=df_NOS,x='newAge',ax=ax[0])
 
-sb.countplot(data=df_NOS_goalies,x='newAge')
+ax[0].set_title('Liga NOS players')
 
-plt.title('Liga NOS goalkeepers')
+sb.countplot(data=df_NOS_goalies,x='newAge',ax=ax[1])
 
-plt.show()
+ax[1].set_title('Liga NOS goalkeepers')
 
-sb.countplot(data=df_MLS,x='age')
 
-plt.title('MLS players')
+sb.countplot(data=df_MLS,x='age',ax=ax[2])
 
-plt.show()
+ax[2].set_title('MLS players')
 
-sb.countplot(data=df_MLS_goalies,x='age')
 
-plt.title('MLS goalkeepers')
+sb.countplot(data=df_MLS_goalies,x='age',ax=ax[3])
 
-plt.show()
+ax[3].set_title('MLS goalkeepers')
+
+st.pyplot(fig)
 
 
 
@@ -105,7 +110,7 @@ df_NOS_U18_attacker=getAttack(df_NOS_U18)
 
 # print(df_MLS_U18_attacker.games.value_counts())
 
-print(df_NOS_U18_attacker.games.value_counts())
+#print(df_NOS_U18_attacker.games.value_counts())
 
 
 def getPlayers(df):
@@ -138,17 +143,17 @@ def getAttSummary(array):
     return summary
 
 
-sb.countplot(data=df_MLS_U18_attacker, x='goals_per90')
+#sb.countplot(data=df_MLS_U18_attacker, x='goals_per90')
 
 plt.show()
 
 sb.countplot(data=df_MLS_U18_attacker, x='assists_per90')
 
-plt.show()
+#plt.show()
 
 sb.countplot(data=df_MLS_U18_attacker, x='goals_assists_per90')
 
-plt.show()
+#plt.show()
 
 
 p1 = df_MLS_U18_attacker[df_MLS_U18_attacker.goals_assists_per90 == 1.67]
@@ -167,7 +172,7 @@ p.append(p3)
 
 pmessage = getAttSummary(p)
 
-print(pmessage)
+#print(pmessage)
 
 message = getAttSummary(players)
 
