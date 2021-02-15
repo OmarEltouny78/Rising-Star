@@ -4,9 +4,28 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sb
 
-df_MLS = pd.read_csv("MLS2021_Outfield.csv", index_col=False)
 
-df_MLS_goalies = pd.read_csv("MLS2021_keepers.csv", index_col=False)
+list=['MLS','Bundesliga','Ligue1','MX','LaLiga','PL','SAF','SerieA','NOS']
+
+outfield_list=[]
+
+goalies_list=[]
+
+for league in list:
+    framename='df_'+league
+    framenamegoal='df_'+league+'_goalies'
+    framename=pd.read_csv(league+'/'+league+'2021_Outfield.csv',index_col=False)
+    framenamegoal=pd.read_csv(league+'/'+league+'2021_keepers.csv',index_col=False)
+    outfield_list.append(framename)
+    goalies_list.append(framenamegoal)
+for outfield in outfield_list:
+    print(outfield.head())
+for goalies in goalies_list:
+    print(goalies.head())
+"""
+df_MLS = pd.read_csv("MLS/MLS2021_Outfield.csv", index_col=False)
+
+df_MLS_goalies = pd.read_csv("MLS/MLS2021_keepers.csv", index_col=False)
 
 df_NOS = pd.read_csv("NOS2021_Outfield.csv", index_col=False)
 
@@ -178,4 +197,4 @@ message = getAttSummary(players)
 
 import pywhatkit
 
-# pywhatkit.sendwhatmsg('+201019867532',message,15,5)
+"""

@@ -149,16 +149,38 @@ def get_team_data(top, end):
     df = df.loc[:, ~df.columns.duplicated()]
     return df
 
+
+import os
+
+folder_names = {'22':'MLS','32': 'NOS', '21': 'SAF', '31': 'MX', '9': 'PL', '13': 'Ligue1', '20': 'Bundesliga', '11': 'SerieA',
+                '12': 'LaLiga'}
+reader = {'22':'/Major-League-Soccer-Stats','32': '/Primeira-Liga-Stats', '21': '/Superliga-Argentina-Stats', '31': '/Liga-MX-Stats',
+          '9': '/Premier-League-Stats', '13': '/Ligue-1-Stats', '20': '/Bundesliga-Stats', '11': '/Serie-A-Stats',
+          '12': '/La-Liga-Stats'}
+"""
 league='/Primeira-Liga-Stats'
 
 df_outfield = get_outfield_data('https://fbref.com/en/comps/32/', '/Primeira-Liga-Stats')
 
-df_outfield.to_csv("NOS2021_Outfield.csv", index=False)
+df_outfield.to_csv("NOS/NOS2021_Outfield.csv", index=False)
 
 print(df_outfield.head())
 
 df_goalkeepers = get_keeper_data('https://fbref.com/en/comps/32/', '/Primeira-Liga-Stats')
 
-df_goalkeepers.to_csv("NOS2021_Keepers.csv", index=False)
+df_goalkeepers.to_csv("NOS/NOS2021_Keepers.csv", index=False)
 
 print(df_goalkeepers.head())
+"""
+for keys, values in folder_names.items():
+    path = os.path.join(r'C:\Users\omart\PycharmProjects\bussinessStart', values)
+    os.makedirs(path)
+
+    for k, v in reader.items():
+        if keys == k:
+            df_outfield = get_outfield_data('https://fbref.com/en/comps/' + k + '/', v)
+            df_outfield.to_csv(values + "/" + values + "2021_Outfield.csv", index=False)
+            print(df_outfield.head())
+            df_goalkeepers = get_keeper_data('https://fbref.com/en/comps/' + k + '/', v)
+            df_goalkeepers.to_csv(values + "/" + values + "2021_Keepers.csv", index=False)
+            print(df_goalkeepers.head())
