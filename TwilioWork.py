@@ -4,24 +4,134 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sb
 
+list = ['MLS', 'Bundesliga', 'Ligue1', 'MX', 'LaLiga', 'PL', 'SAF', 'SerieA', 'NOS']
 
-list=['MLS','Bundesliga','Ligue1','MX','LaLiga','PL','SAF','SerieA','NOS']
+outfield_list = []
 
-outfield_list=[]
-
-goalies_list=[]
+goalies_list = []
 
 for league in list:
-    framename='df_'+league
-    framenamegoal='df_'+league+'_goalies'
-    framename=pd.read_csv(league+'/'+league+'2021_Outfield.csv',index_col=False)
-    framenamegoal=pd.read_csv(league+'/'+league+'2021_keepers.csv',index_col=False)
+    framename = 'df_' + league
+    framenamegoal = 'df_' + league + '_goalies'
+    framename = pd.read_csv(league + '/' + league + '2021_Outfield.csv', index_col=False)
+    framenamegoal = pd.read_csv(league + '/' + league + '2021_keepers.csv', index_col=False)
     outfield_list.append(framename)
     goalies_list.append(framenamegoal)
+    """
 for outfield in outfield_list:
     print(outfield.head())
 for goalies in goalies_list:
     print(goalies.head())
+    """
+
+
+def convertAge(df):
+    Aage = 2021 - df.birth_year
+    df['newAge'] = Aage
+    return df
+
+
+def getUNos(df, age):
+    df_Uage = df[df.newAge <= age]
+    return df_Uage
+
+
+def removeNull(df, num=0):
+    if len(df.index != 0):
+        df = df[df.games > num]
+    return df
+
+
+U18_list = []
+
+for out_l in outfield_list:
+    out_l = convertAge(out_l)
+    out_l = getUNos(out_l, 18)
+    out_l = removeNull(out_l)
+    U18_list.append(out_l)
+
+
+def getPosition(df, pos):
+    df_pos = df[df.position == pos]
+    return df_pos
+
+
+def_list = []
+att_list = []
+mid_list = []
+for ol in U18_list:
+    ol = getPosition(ol, 'FW')
+    att_list.append(ol)
+for ol in U18_list:
+    ol = getPosition(ol, 'MF')
+    mid_list.append(ol)
+for ol in U18_list:
+    ol = getPosition(ol, 'DF')
+    def_list.append(ol)
+
+
+def getAttSummary(array):
+    summary = ''
+    summary += ('Forward Analysis' + '\n')
+    for i in range(len(array)):
+        if not array[i].empty:
+            summary += ("Player name " + array[i].player.to_string(index=False) + '\n')
+            summary += ("Player nationality " + array[i].nationality.to_string(index=False) + '\n')
+            summary += ("Player squad " + array[i].squad.to_string(index=False) + '\n')
+            summary += ("Player age " + array[i].newAge.to_string(index=False) + '\n')
+            summary += ("Player games played " + array[i].games.to_string(index=False) + '\n')
+            summary += ("Player games started " + array[i].games_starts.to_string(index=False) + '\n')
+            summary += ("Player minutes played " + array[i].minutes.to_string(index=False) + '\n')
+            summary += ("Player goals scored " + array[i].goals.to_string(index=False) + '\n')
+            summary += ("Player assists made " + array[i].assists.to_string(index=False) + '\n')
+    return summary
+
+
+def getMidSummary(array):
+    summary = ''
+    summary += ('Midfielder Analysis' + '\n')
+    for i in range(len(array)):
+        if not array[i].empty:
+            summary += ("Player name " + array[i].player.to_string(index=False) + '\n')
+            summary += ("Player nationality " + array[i].nationality.to_string(index=False) + '\n')
+            summary += ("Player squad " + array[i].squad.to_string(index=False) + '\n')
+            summary += ("Player age " + array[i].newAge.to_string(index=False) + '\n')
+            summary += ("Player games played " + array[i].games.to_string(index=False) + '\n')
+            summary += ("Player games started " + array[i].games_starts.to_string(index=False) + '\n')
+            summary += ("Player minutes played " + array[i].minutes.to_string(index=False) + '\n')
+            summary += ("Player goals scored " + array[i].goals.to_string(index=False) + '\n')
+            summary += ("Player assists made " + array[i].assists.to_string(index=False) + '\n')
+            summary += ("Player crosses made " + array[i].crosses.to_string(index=False) + '\n')
+            summary += ("Player interceptions made " + array[i].interceptions.to_string(index=False) + '\n')
+            summary += ("Player tackles won " + array[i].tackles_won.to_string(index=False) + '\n')
+    return summary
+
+
+def getDefSummary(array):
+    summary = ''
+    summary += ('Defender Analysis' + '\n')
+    for i in range(len(array)):
+        if not array[i].empty:
+            summary += ("Player name " + array[i].player.to_string(index=False) + '\n')
+            summary += ("Player nationality " + array[i].nationality.to_string(index=False) + '\n')
+            summary += ("Player squad " + array[i].squad.to_string(index=False) + '\n')
+            summary += ("Player age " + array[i].newAge.to_string(index=False) + '\n')
+            summary += ("Player games played " + array[i].games.to_string(index=False) + '\n')
+            summary += ("Player games started " + array[i].games_starts.to_string(index=False) + '\n')
+            summary += ("Player minutes played " + array[i].minutes.to_string(index=False) + '\n')
+            summary += ("Player assists made " + array[i].assists.to_string(index=False) + '\n')
+            summary += ("Player crosses made " + array[i].crosses.to_string(index=False) + '\n')
+            summary += ("Player interceptions made " + array[i].interceptions.to_string(index=False) + '\n')
+            summary += ("Player tackles won " + array[i].tackles_won.to_string(index=False) + '\n')
+    return summary
+
+
+sary = getAttSummary(att_list)+ "\n" + getMidSummary(mid_list) + "\n" + getDefSummary(def_list)
+
+
+print(sary)
+
+
 """
 df_MLS = pd.read_csv("MLS/MLS2021_Outfield.csv", index_col=False)
 

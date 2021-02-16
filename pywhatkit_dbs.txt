@@ -32,3 +32,882 @@ Player goals scored 0.0
 Player assists made 0.0
 
 --------------------
+Date: 16:2:2021
+Time: 16:45
+Phone number: +01019867532
+Message: Forward Analysis
+Player name      Christopher Garcia
+Jahkeele Marshall-Rutty
+           Ricardo Pepi
+       Christian Torres
+Player nationality us USA
+ca CAN
+us USA
+us USA
+Player squad Real Salt Lake
+    Toronto FC
+     FC Dallas
+Los Angeles FC
+Player age 18
+17
+18
+17
+Player games played  1.0
+ 1.0
+17.0
+ 8.0
+Player games started 0.0
+0.0
+4.0
+2.0
+Player minutes played   1.0
+ 19.0
+466.0
+215.0
+Player goals scored 0.0
+0.0
+2.0
+1.0
+Player assists made 0.0
+0.0
+1.0
+0.0
+Player name Florent da Silva
+Player nationality fr FRA
+Player squad Lyon
+Player age 18
+Player games played 1.0
+Player games started 0.0
+Player minutes played 3.0
+Player goals scored 0.0
+Player assists made 0.0
+Player name     Bryan Roque
+Isaías Violante
+Player nationality mx MEX
+mx MEX
+Player squad Necaxa
+Toluca
+Player age 17
+18
+Player games played 1.0
+2.0
+Player games started 0.0
+0.0
+Player minutes played  6.0
+49.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player name    Liam Delap
+Dane Scarlett
+Player nationality eng ENG
+eng ENG
+Player squad Manchester City
+      Tottenham
+Player age 18
+17
+Player games played 1.0
+1.0
+Player games started 0.0
+0.0
+Player minutes played 40.0
+ 1.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player name Agustin Hausch
+Player nationality ar ARG
+Player squad San Lorenzo
+Player age 18
+Player games played 1.0
+Player games started 0.0
+Player minutes played 45.0
+Player goals scored 0.0
+Player assists made 0.0
+Player name Tiago Fonseca Morais
+       Rodrigo Gomes
+Player nationality pt POR
+pt POR
+Player squad Boavista
+   Braga
+Player age 18
+18
+Player games played 2.0
+4.0
+Player games started 0.0
+0.0
+Player minutes played 35.0
+11.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Midfielder Analysis
+Player name  Danny Leyva
+Moses Nyeman
+Player nationality us USA
+us USA
+Player squad     Seattle
+D.C. United
+Player age 18
+18
+Player games played  2.0
+11.0
+Player games started 1.0
+5.0
+Player minutes played  57.0
+493.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 0.0
+1.0
+Player interceptions made 0.0
+3.0
+Player tackles won  0.0
+11.0
+Player name Jude Bellingham
+  Florian Wirtz
+Player nationality eng ENG
+ de GER
+Player squad   Dortmund
+Leverkusen
+Player age 18
+18
+Player games played 17.0
+18.0
+Player games started 10.0
+17.0
+Player minutes played  874.0
+1499.0
+Player goals scored 0.0
+4.0
+Player assists made 2.0
+5.0
+Player crosses made 13.0
+10.0
+Player interceptions made  7.0
+15.0
+Player tackles won 22.0
+12.0
+Player name Lucas Douath
+  Malo Gusto
+Player nationality fr FRA
+fr FRA
+Player squad Saint-Étienne
+         Lyon
+Player age 18
+18
+Player games played 21.0
+ 1.0
+Player games started 8.0
+0.0
+Player minutes played 905.0
+  1.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 0.0
+0.0
+Player interceptions made 16.0
+ 0.0
+Player tackles won 18.0
+ 0.0
+Player name Bryan González
+Eduardo Mustre
+Player nationality mx MEX
+mx MEX
+Player squad Pachuca
+Pachuca
+Player age 18
+18
+Player games played 2.0
+1.0
+Player games started 0.0
+0.0
+Player minutes played 15.0
+12.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 0.0
+1.0
+Player interceptions made 0.0
+0.0
+Player tackles won 1.0
+0.0
+Player name Ilaix Moriba
+Player nationality es ESP
+Player squad Barcelona
+Player age 18
+Player games played 1.0
+Player games started 1.0
+Player minutes played 63.0
+Player goals scored 0.0
+Player assists made 1.0
+Player crosses made 0.0
+Player interceptions made 0.0
+Player tackles won 0.0
+Player name Darío Sarmiento
+  Luis Sequeira
+Player nationality ar ARG
+ar ARG
+Player squad Estudiantes
+San Lorenzo
+Player age 18
+18
+Player games played 5.0
+2.0
+Player games started 0.0
+0.0
+Player minutes played 140.0
+  7.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 3.0
+0.0
+Player interceptions made 0.0
+0.0
+Player tackles won 0.0
+1.0
+Player name João Neto
+Player nationality br BRA
+Player squad Famalicão
+Player age 18
+Player games played 3.0
+Player games started 1.0
+Player minutes played 88.0
+Player goals scored 0.0
+Player assists made 0.0
+Player crosses made 0.0
+Player interceptions made 0.0
+Player tackles won 2.0
+Defender Analysis
+Player name Luca Netz
+Player nationality de GER
+Player squad Hertha BSC
+Player age 18
+Player games played 7.0
+Player games started 2.0
+Player minutes played 207.0
+Player assists made 0.0
+Player crosses made 7.0
+Player interceptions made 2.0
+Player tackles won 6.0
+Player name Salim Ben Seghir
+Player nationality fr FRA
+Player squad Nice
+Player age 18
+Player games played 1.0
+Player games started 0.0
+Player minutes played 7.0
+Player assists made 0.0
+Player crosses made 0.0
+Player interceptions made 0.0
+Player tackles won 0.0
+Player name Daan Dierckx
+Player nationality be BEL
+Player squad Parma
+Player age 18
+Player games played 1.0
+Player games started 1.0
+Player minutes played 90.0
+Player assists made 0.0
+Player crosses made 0.0
+Player interceptions made 1.0
+Player tackles won 4.0
+
+--------------------
+Date: 16:2:2021
+Time: 16:50
+Phone number: +01019867532
+Message: Forward Analysis
+Player name      Christopher Garcia
+Jahkeele Marshall-Rutty
+           Ricardo Pepi
+       Christian Torres
+Player nationality us USA
+ca CAN
+us USA
+us USA
+Player squad Real Salt Lake
+    Toronto FC
+     FC Dallas
+Los Angeles FC
+Player age 18
+17
+18
+17
+Player games played  1.0
+ 1.0
+17.0
+ 8.0
+Player games started 0.0
+0.0
+4.0
+2.0
+Player minutes played   1.0
+ 19.0
+466.0
+215.0
+Player goals scored 0.0
+0.0
+2.0
+1.0
+Player assists made 0.0
+0.0
+1.0
+0.0
+Player name Florent da Silva
+Player nationality fr FRA
+Player squad Lyon
+Player age 18
+Player games played 1.0
+Player games started 0.0
+Player minutes played 3.0
+Player goals scored 0.0
+Player assists made 0.0
+Player name     Bryan Roque
+Isaías Violante
+Player nationality mx MEX
+mx MEX
+Player squad Necaxa
+Toluca
+Player age 17
+18
+Player games played 1.0
+2.0
+Player games started 0.0
+0.0
+Player minutes played  6.0
+49.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player name    Liam Delap
+Dane Scarlett
+Player nationality eng ENG
+eng ENG
+Player squad Manchester City
+      Tottenham
+Player age 18
+17
+Player games played 1.0
+1.0
+Player games started 0.0
+0.0
+Player minutes played 40.0
+ 1.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player name Agustin Hausch
+Player nationality ar ARG
+Player squad San Lorenzo
+Player age 18
+Player games played 1.0
+Player games started 0.0
+Player minutes played 45.0
+Player goals scored 0.0
+Player assists made 0.0
+Player name Tiago Fonseca Morais
+       Rodrigo Gomes
+Player nationality pt POR
+pt POR
+Player squad Boavista
+   Braga
+Player age 18
+18
+Player games played 2.0
+4.0
+Player games started 0.0
+0.0
+Player minutes played 35.0
+11.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Midfielder Analysis
+Player name  Danny Leyva
+Moses Nyeman
+Player nationality us USA
+us USA
+Player squad     Seattle
+D.C. United
+Player age 18
+18
+Player games played  2.0
+11.0
+Player games started 1.0
+5.0
+Player minutes played  57.0
+493.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 0.0
+1.0
+Player interceptions made 0.0
+3.0
+Player tackles won  0.0
+11.0
+Player name Jude Bellingham
+  Florian Wirtz
+Player nationality eng ENG
+ de GER
+Player squad   Dortmund
+Leverkusen
+Player age 18
+18
+Player games played 17.0
+18.0
+Player games started 10.0
+17.0
+Player minutes played  874.0
+1499.0
+Player goals scored 0.0
+4.0
+Player assists made 2.0
+5.0
+Player crosses made 13.0
+10.0
+Player interceptions made  7.0
+15.0
+Player tackles won 22.0
+12.0
+Player name Lucas Douath
+  Malo Gusto
+Player nationality fr FRA
+fr FRA
+Player squad Saint-Étienne
+         Lyon
+Player age 18
+18
+Player games played 21.0
+ 1.0
+Player games started 8.0
+0.0
+Player minutes played 905.0
+  1.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 0.0
+0.0
+Player interceptions made 16.0
+ 0.0
+Player tackles won 18.0
+ 0.0
+Player name Bryan González
+Eduardo Mustre
+Player nationality mx MEX
+mx MEX
+Player squad Pachuca
+Pachuca
+Player age 18
+18
+Player games played 2.0
+1.0
+Player games started 0.0
+0.0
+Player minutes played 15.0
+12.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 0.0
+1.0
+Player interceptions made 0.0
+0.0
+Player tackles won 1.0
+0.0
+Player name Ilaix Moriba
+Player nationality es ESP
+Player squad Barcelona
+Player age 18
+Player games played 1.0
+Player games started 1.0
+Player minutes played 63.0
+Player goals scored 0.0
+Player assists made 1.0
+Player crosses made 0.0
+Player interceptions made 0.0
+Player tackles won 0.0
+Player name Darío Sarmiento
+  Luis Sequeira
+Player nationality ar ARG
+ar ARG
+Player squad Estudiantes
+San Lorenzo
+Player age 18
+18
+Player games played 5.0
+2.0
+Player games started 0.0
+0.0
+Player minutes played 140.0
+  7.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 3.0
+0.0
+Player interceptions made 0.0
+0.0
+Player tackles won 0.0
+1.0
+Player name João Neto
+Player nationality br BRA
+Player squad Famalicão
+Player age 18
+Player games played 3.0
+Player games started 1.0
+Player minutes played 88.0
+Player goals scored 0.0
+Player assists made 0.0
+Player crosses made 0.0
+Player interceptions made 0.0
+Player tackles won 2.0
+Defender Analysis
+Player name Luca Netz
+Player nationality de GER
+Player squad Hertha BSC
+Player age 18
+Player games played 7.0
+Player games started 2.0
+Player minutes played 207.0
+Player assists made 0.0
+Player crosses made 7.0
+Player interceptions made 2.0
+Player tackles won 6.0
+Player name Salim Ben Seghir
+Player nationality fr FRA
+Player squad Nice
+Player age 18
+Player games played 1.0
+Player games started 0.0
+Player minutes played 7.0
+Player assists made 0.0
+Player crosses made 0.0
+Player interceptions made 0.0
+Player tackles won 0.0
+Player name Daan Dierckx
+Player nationality be BEL
+Player squad Parma
+Player age 18
+Player games played 1.0
+Player games started 1.0
+Player minutes played 90.0
+Player assists made 0.0
+Player crosses made 0.0
+Player interceptions made 1.0
+Player tackles won 4.0
+
+--------------------
+Date: 16:2:2021
+Time: 21:26
+Phone number: +201019867532
+Message: Forward Analysis
+Player name      Christopher Garcia
+Jahkeele Marshall-Rutty
+           Ricardo Pepi
+       Christian Torres
+Player nationality us USA
+ca CAN
+us USA
+us USA
+Player squad Real Salt Lake
+    Toronto FC
+     FC Dallas
+Los Angeles FC
+Player age 18
+17
+18
+17
+Player games played  1.0
+ 1.0
+17.0
+ 8.0
+Player games started 0.0
+0.0
+4.0
+2.0
+Player minutes played   1.0
+ 19.0
+466.0
+215.0
+Player goals scored 0.0
+0.0
+2.0
+1.0
+Player assists made 0.0
+0.0
+1.0
+0.0
+Player name Florent da Silva
+Player nationality fr FRA
+Player squad Lyon
+Player age 18
+Player games played 1.0
+Player games started 0.0
+Player minutes played 3.0
+Player goals scored 0.0
+Player assists made 0.0
+Player name     Bryan Roque
+Isaías Violante
+Player nationality mx MEX
+mx MEX
+Player squad Necaxa
+Toluca
+Player age 17
+18
+Player games played 1.0
+2.0
+Player games started 0.0
+0.0
+Player minutes played  6.0
+49.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player name    Liam Delap
+Dane Scarlett
+Player nationality eng ENG
+eng ENG
+Player squad Manchester City
+      Tottenham
+Player age 18
+17
+Player games played 1.0
+1.0
+Player games started 0.0
+0.0
+Player minutes played 40.0
+ 1.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player name Agustin Hausch
+Player nationality ar ARG
+Player squad San Lorenzo
+Player age 18
+Player games played 1.0
+Player games started 0.0
+Player minutes played 45.0
+Player goals scored 0.0
+Player assists made 0.0
+Player name Tiago Fonseca Morais
+       Rodrigo Gomes
+Player nationality pt POR
+pt POR
+Player squad Boavista
+   Braga
+Player age 18
+18
+Player games played 2.0
+4.0
+Player games started 0.0
+0.0
+Player minutes played 35.0
+11.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Midfielder Analysis
+Player name  Danny Leyva
+Moses Nyeman
+Player nationality us USA
+us USA
+Player squad     Seattle
+D.C. United
+Player age 18
+18
+Player games played  2.0
+11.0
+Player games started 1.0
+5.0
+Player minutes played  57.0
+493.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 0.0
+1.0
+Player interceptions made 0.0
+3.0
+Player tackles won  0.0
+11.0
+Player name Jude Bellingham
+  Florian Wirtz
+Player nationality eng ENG
+ de GER
+Player squad   Dortmund
+Leverkusen
+Player age 18
+18
+Player games played 17.0
+18.0
+Player games started 10.0
+17.0
+Player minutes played  874.0
+1499.0
+Player goals scored 0.0
+4.0
+Player assists made 2.0
+5.0
+Player crosses made 13.0
+10.0
+Player interceptions made  7.0
+15.0
+Player tackles won 22.0
+12.0
+Player name Lucas Douath
+  Malo Gusto
+Player nationality fr FRA
+fr FRA
+Player squad Saint-Étienne
+         Lyon
+Player age 18
+18
+Player games played 21.0
+ 1.0
+Player games started 8.0
+0.0
+Player minutes played 905.0
+  1.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 0.0
+0.0
+Player interceptions made 16.0
+ 0.0
+Player tackles won 18.0
+ 0.0
+Player name Bryan González
+Eduardo Mustre
+Player nationality mx MEX
+mx MEX
+Player squad Pachuca
+Pachuca
+Player age 18
+18
+Player games played 2.0
+1.0
+Player games started 0.0
+0.0
+Player minutes played 15.0
+12.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 0.0
+1.0
+Player interceptions made 0.0
+0.0
+Player tackles won 1.0
+0.0
+Player name Ilaix Moriba
+Player nationality es ESP
+Player squad Barcelona
+Player age 18
+Player games played 1.0
+Player games started 1.0
+Player minutes played 63.0
+Player goals scored 0.0
+Player assists made 1.0
+Player crosses made 0.0
+Player interceptions made 0.0
+Player tackles won 0.0
+Player name Darío Sarmiento
+  Luis Sequeira
+Player nationality ar ARG
+ar ARG
+Player squad Estudiantes
+San Lorenzo
+Player age 18
+18
+Player games played 5.0
+2.0
+Player games started 0.0
+0.0
+Player minutes played 140.0
+  7.0
+Player goals scored 0.0
+0.0
+Player assists made 0.0
+0.0
+Player crosses made 3.0
+0.0
+Player interceptions made 0.0
+0.0
+Player tackles won 0.0
+1.0
+Player name João Neto
+Player nationality br BRA
+Player squad Famalicão
+Player age 18
+Player games played 3.0
+Player games started 1.0
+Player minutes played 88.0
+Player goals scored 0.0
+Player assists made 0.0
+Player crosses made 0.0
+Player interceptions made 0.0
+Player tackles won 2.0
+Defender Analysis
+Player name Luca Netz
+Player nationality de GER
+Player squad Hertha BSC
+Player age 18
+Player games played 7.0
+Player games started 2.0
+Player minutes played 207.0
+Player assists made 0.0
+Player crosses made 7.0
+Player interceptions made 2.0
+Player tackles won 6.0
+Player name Salim Ben Seghir
+Player nationality fr FRA
+Player squad Nice
+Player age 18
+Player games played 1.0
+Player games started 0.0
+Player minutes played 7.0
+Player assists made 0.0
+Player crosses made 0.0
+Player interceptions made 0.0
+Player tackles won 0.0
+Player name Daan Dierckx
+Player nationality be BEL
+Player squad Parma
+Player age 18
+Player games played 1.0
+Player games started 1.0
+Player minutes played 90.0
+Player assists made 0.0
+Player crosses made 0.0
+Player interceptions made 1.0
+Player tackles won 4.0
+
+--------------------
