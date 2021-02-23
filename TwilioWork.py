@@ -11,15 +11,19 @@ outfield_list = []
 
 goalies_list = []
 
+url = 'https://raw.githubusercontent.com/OmarEltouny78/Rising-Star/main/PL/PL2021_Outfield.csv'
+
 for league in list:
     framename = 'df_' + league
     framenamegoal = 'df_' + league + '_goalies'
-    framename = pd.read_csv(league + '/' + league +
-                            '2021_Outfield.csv', index_col=False)
-    framenamegoal = pd.read_csv(
-        league + '/' + league + '2021_keepers.csv', index_col=False)
+    players_link = 'https://raw.githubusercontent.com/OmarEltouny78/Rising-Star/main/' + \
+        league + '/' + league + '2021_Outfield.csv'
+    framename = pd.read_csv(players_link, index_col=False, sep=',')
+    # goalies_link = 'https://raw.githubusercontent.com/OmarEltouny78/Rising-Star/main/' + \
+    #league + '/' + league + '2021_keepers.csv'
+    #framenamegoal = pd.read_csv(goalies_link, index_col=False, sep=',')
     outfield_list.append(framename)
-    goalies_list.append(framenamegoal)
+    # goalies_list.append(framenamegoal)
 
 st.title('The Rising Star Scout')
 
@@ -57,21 +61,21 @@ def removeNull(df, num=0):
 
 
 players_df = convertAge(players_df)
-goalkeepers_df = convertAge(goalkeepers_df)
+#goalkeepers_df = convertAge(goalkeepers_df)
 
 st.subheader('outfield')
 
 st.bar_chart(players_df.newAge.value_counts())
 
-st.subheader('goalkeepers')
+# st.subheader('goalkeepers')
 
-st.bar_chart(goalkeepers_df.newAge.value_counts())
+# st.bar_chart(goalkeepers_df.newAge.value_counts())
 
-age = st.number_input('Enter age')
+age = st.number_input('Enter players maximum age')
 
 players_U18_df = getUNos(players_df, age)
 
-num = st.number_input('Enter minimum number of games')
+num = st.number_input('Enter minimum number of games played')
 
 players_U18_df = removeNull(players_U18_df, num)
 
