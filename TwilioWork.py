@@ -39,8 +39,6 @@ for keys, values in league_dict.items():
     if option == keys:
         players_df = pd.read_csv(
             values+'/'+values+'2021_Outfield.csv', index_col=False)
-        goalkeepers_df = pd.read_csv(
-            values+'/'+values+'2021_keepers.csv', index_col=False)
 
 
 def convertAge(df):
