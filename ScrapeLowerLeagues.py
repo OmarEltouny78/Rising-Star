@@ -153,10 +153,10 @@ def get_team_data(top, end):
 import os
 
 folder_names = {'22':'MLS','32': 'NOS', '21': 'SAF', '31': 'MX', '9': 'PL', '13': 'Ligue1', '20': 'Bundesliga', '11': 'SerieA',
-                '12': 'LaLiga','37':'Pro','8':'UCL','19':'UEL','24':'Brasilero','23':'Ered','30':'Russian','70':'SaudiLeague'}
+                '12': 'LaLiga','37':'Pro','8':'UCL','19':'UEL','24':'Brasilero','23':'Ered','30':'Russian','70':'SaudiLeague','514':'FACup','189':'WSL'}
 reader = {'22':'/Major-League-Soccer-Stats','32': '/Primeira-Liga-Stats', '21': '/Superliga-Argentina-Stats', '31': '/Liga-MX-Stats',
           '9': '/Premier-League-Stats', '13': '/Ligue-1-Stats', '20': '/Bundesliga-Stats', '11': '/Serie-A-Stats',
-          '12': '/La-Liga-Stats','37':'/Belgian-First-Division-A-Stats','8':'/Champions-League-Stats','19':'/Europa-League-Stats','24':'/Serie-A-Stats','23':'/Dutch-Eredivisie-Stats','30':'/Russian-Premier-League-Stats','70':'/Saudi-Professional-League-Stats'}
+          '12': '/La-Liga-Stats','37':'/Belgian-First-Division-A-Stats','8':'/Champions-League-Stats','19':'/Europa-League-Stats','24':'/Serie-A-Stats','23':'/Dutch-Eredivisie-Stats','30':'/Russian-Premier-League-Stats','70':'/Saudi-Professional-League-Stats','514':'FA-Cup-Stats','189':'Womens-Super-League-Stats'}
 """
 league='/Primeira-Liga-Stats'
 
